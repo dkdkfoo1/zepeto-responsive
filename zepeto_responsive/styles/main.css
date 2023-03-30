@@ -1,0 +1,246 @@
+body {}
+header {
+    background-color: #222;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 10px;
+}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header nav {display: flex;
+    flex-flow: row nowrap;
+    
+    }
+header nav a {padding-right: 27px;}
+header nav a p {color: #fff; font-size: 1.2rem;}
+header .head_r {display: flex;
+    flex-flow: row nowrap;}
+header .head_r .box {
+    border: 3px solid #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+header .head_r a p {color: #fff;}
+header .head_r .bell {
+    margin-left: 27px;
+}
+header .head_r a img {width: 28px; filter:invert(100%);}
+/* 헤더끝----------------------------------- */
+.main1 {
+    text-align: center;
+}
+.main1 .mv {
+    height: 700px; overflow: hidden;
+    position: relative;
+}
+.main1 .mv video {width: 100%;}
+.main1 .mv video source {}
+.main .hop {
+}
+.main1 .hop h2 {
+    position: absolute; top: 30%; left: 40%;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.main1 .hop a {
+    position: absolute; top: 50%; left: 48%;
+    color: #fff;
+    border: 2px solid #222;
+    padding: 20px 40px;
+    background-color: #222;
+    border-radius: 20px;
+}
+.main1 .hop a p {}
+/* 메인1끝---------------------------------- */
+.main2 {
+    text-align: center;
+    margin: 150px auto;
+    width: calc(100% - 30px);
+    max-width: 1200px;
+    min-width: 320px;
+}
+.main2 h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.main2 h3 {
+    margin-top: 50px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.main2 .fun {}
+.main2 .fun .funimg {
+    height: 700px;
+    background: url(../images/img_creators.png) center; 
+    background-size: cover;
+    width: 100%;
+    /* 백그라운드 커버속성 주기 주면 좋네? */
+}
+.main2 .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.main2 .container .bigger {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main2 .container .c1 {}
+.main2 .container .c1 p {}
+.main2 .container .c2 {}
+.main2 .container .c2 p {}
+.main2 .container .c3 {}
+.main2 .container .c3 p {}
+/* 메인2끝---------------------------------- */
+.main3 {
+    background-color: #eee;
+}
+.main3 .main3_c {
+    /* width: 1200px; */
+    margin: 0 auto;
+    text-align: center;
+    width: calc(100% - 30px);
+    max-width: 1200px;
+    min-width: 320px;
+}
+.main3 h2 {font-size: 3rem;
+    font-weight: bold;
+    padding-top: 150px;}
+.main3 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 50px 0;
+}
+.main3 .container2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.main3 .container2 .cc {
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 380px; height: 320px;
+}
+.main3 .container2 p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.main3 .container2 h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.main3 .container2 p+a {
+    width: 200px; height: 30px;
+}
+.main3 .container2 p+a>span {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+.main3 .container2 .cc1 {}
+.main3 .container2 .cc1 h3 {}
+.main3 .container2 .cc1 p {}
+.main3 .container2 .cc1 a {}
+.main3 .container2 .cc1 a p {}
+.main3 .container2 .cc2 {}
+.main3 .container2 .cc2 h3 {}
+.main3 .container2 .cc2 p {}
+.main3 .container2 .cc2 a {}
+.main3 .container2 .cc2 a p {}
+.main3 .container2 .cc3 {}
+.main3 .container2 .cc3 h3 {}
+.main3 .container2 .cc3 p {}
+.main3 .container2 .cc3 a {}
+.main3 .container2 .cc3 a p {}
+/* 메인3끝---------------------------------- */
+.main4 {text-align: center;
+    margin: 150px auto;
+    width: calc(100% - 30px);
+    max-width: 1200px;
+    min-width: 320px;
+}
+.main4 h2 {font-size: 3rem;
+    font-weight: bold;
+margin-bottom: 30px;}
+.main4 p {font-size: 1.2rem;
+line-height: 1.5;}
+.main4 .photo {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 30px);
+    max-width: 1200px;
+    min-width: 320px;
+}
+.main4 .photo a {
+    width: 100%;
+}
+.main4 .photo a p {
+    border-radius: 50%; 
+    /* height: 220px; */
+    margin-right: 7px;
+    padding-top: calc(200/200*100%);
+    /* 이게 되네? */
+}
+.main4 .photo a .p1 {
+    background: url(../images/img_slider_01.png) center;
+    background-size: cover;
+}
+.main4 .photo a .p2 {
+    background: url(../images/img_slider_02.png) center;
+    background-size: cover;}
+.main4 .photo a .p3 {
+    background: url(../images/img_slider_03.png) center;
+    background-size: cover;}
+.main4 .photo a .p4 {
+    background: url(../images/img_slider_04.png) center;
+    background-size: cover;}
+.main4 .photo a .p5 
+{background: url(../images/img_slider_05.png) center;
+    background-size: cover;}
+/* 메인4끝---------------------------------- */
+footer {
+    background-color: #eee;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .left {}
+footer .left .left1 {
+    padding-bottom: 20px;
+}
+footer .left .left1 a {}
+footer .left2 {}
+footer .left2 p {}
+footer .right {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .right input {}
+footer .right .right2 {
+    padding-left: 10px;
+}
+footer .right .right2 a {}
+/* 푸터 끝---------------------------------- */

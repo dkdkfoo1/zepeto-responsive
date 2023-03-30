@@ -1,0 +1,15 @@
+/* 태블릿 */
+@media screen and (max-width:1024px) {
+    /* .main4 .photo .pp {width: 32%;} */
+    .main4 .photo .p1 {display: none;}
+    /* .main4 .photo .pp {width: 100%;} */
+    header nav {display: none;}
+}
+/* 모바일 */
+@media screen and (max-width:768px) {
+    .main4 .photo .p1,
+    .main4 .photo .p5 {display: none;}
+    .main3 .container2 .cc {width: 100%;}
+    .main3 .container2 .cc3 {display: none;} 
+    footer .right {display: none;} 
+}
